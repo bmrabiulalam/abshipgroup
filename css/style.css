@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+}
+body p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+#logo{
+  display: flex;
+  align-items: center;
+  color: rgb(138, 48, 48);
+  font-weight: 700;
+  font-size: .8em;
+}
+#logo img {
+  margin-right: 0.5em;
+}
+.my-navbar {
+  font-weight: 600;
+  z-index: 10;
+  width: 100%;
+  background-color: rgba(0, 225, 255, 0.575); 
+}
+.my-carousel-item {
+  height: 50vw;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.my-carousel-caption{
+  background-color: rgba(0, 225, 255, 0.575);
+}
+.my-carousel-caption h5, .my-carousel-caption p{
+  color: rgb(232, 252, 250);
+}
+.single-service{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #1db6d4;
+  box-shadow: inset lightgrey 2px;
+  border-radius: 50%;
+  padding: 2%;
+  color: rgb(235, 248, 250);
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  background: linear-gradient(60deg,#0dcaf0,#088ca7);
+}
+.services-text{
+  text-align: justify;
+}
+#clients-section{
+  background-image: url('../images/ship6.jpg');
+  background-size: cover;
+  min-height: 400px;
+}
+.client-inner-div{
+  background-color: #22d4f8b6;
+  height: 400px;
+}
+.client-btn{
+  background-color: #0dcaf0 !important;
+  margin: .5em;
+  padding-top: 3em;
+}
+.single-comment{
+  border: 5px solid !important;
+  border-image: linear-gradient(90deg, rgb(81, 149, 238), cyan, rgb(224, 127, 243)) !important;
+  border-image-slice: 1 !important;
+  margin-top: 60px;
+}
+.commenter-pic{
+  margin-top: -50px !important;
+  height: 100px;
+}
+.commenter-pic img{
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid  #4bdff3;
+  box-shadow: rgb(95, 215, 236) 0px 0px 15px;
+}
+.comment-quote{
+  margin-top: 20px;
+  text-align: justify;
+}
+.about-text{
+  font-size: 1em;
+  font-weight: 400;
+  text-align: justify;
+}
+.about-text-inner-div{
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.footer{
+  bottom: 0;
+  text-align: center;
+}
