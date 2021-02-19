@@ -40,20 +40,23 @@ body p {
   color: rgb(232, 252, 250);
 }
 .single-service{
-  width: 150px;
-  height: 150px;
-  border: 3px solid #1db6d4;
-  box-shadow: inset lightgrey 2px;
+  width: 130px;
+  height: 130px;
+  /* border: 3px solid #1db6d4; */
+  box-shadow: rgb(5, 187, 233) 0px 0px 10px;
   border-radius: 50%;
   padding: 2%;
-  color: rgb(235, 248, 250);
+  color: white;
   text-align: center;
   font-size: 1em;
-  font-weight: 600;
-  background: linear-gradient(60deg,#0dcaf0,#088ca7);
+  font-weight: 700;
+  background: linear-gradient(160deg, rgb(238, 119, 238), #37d2f1, rgb(80, 138, 247));
 }
 .services-text{
   text-align: justify;
+}
+.services-text-slide{
+  height: 300px;
 }
 #clients-section{
   background-image: url('../images/ship6.jpg');
