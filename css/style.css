@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   padding: 0;
+  background-image: url('../images/bg/bg-pat-1.png');
 }
 body p {
   font-size: 12px;
@@ -20,7 +21,7 @@ body p {
   margin-right: 0.5em;
 }
 .my-navbar {
-  font-weight: 600;
+  font-weight: 500;
   width: 100%;
   background-color: rgba(0, 225, 255, 0.575); 
 }
@@ -50,11 +51,25 @@ body p {
   font-weight: 500;
   background: linear-gradient(160deg, rgb(238, 119, 238), #37d2f1, rgb(80, 138, 247));
 }
+.glow {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #00b0e6, 0 0 12px #00b0e6, 0 0 15px #00b0e6, 0 0 18px #00b0e6, 0 0 21px #e60073;
+  }
+  to {
+    box-shadow: 0 0 6px #fff, 0 0 9px #4dcdff, 0 0 12px #4dcdff, 0 0 15px #4dcdff, 0 0 18px #4dcdff, 0 0 21px #ff4da6, 0 0 24px #ff4da6;
+  }
+}
 .services-text{
   text-align: justify;
 }
 .services-text-slide{
-  height: 300px;
+  /* height: 300px; */
 }
 #clients-section{
   background-image: url('../images/ship6.jpg');
@@ -97,6 +112,23 @@ body p {
 }
 .about-text-inner-div{
   background-color: rgba(0, 0, 0, 0.03);
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background: linear-gradient(100deg, rgb(253, 107, 233), #54d6fd);
+  cursor: pointer;
+  padding: 15px;
+}
+#myBtn:hover {
+  background-color: #555;
 }
 .footer{
   bottom: 0;
