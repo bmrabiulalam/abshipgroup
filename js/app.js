@@ -1,9 +1,9 @@
 /* Typing text start */
 const typingEffect = () => {
-    var i = 0;
-    var typingTextArea = document.getElementById("typing-effect-text");
-    var txt = typingTextArea.innerHTML; /* The text */
-    var speed = 60; /* The speed/duration of the effect in milliseconds */
+    let i = 0;
+    let typingTextArea = document.getElementById("typing-effect-text");
+    let txt = typingTextArea.innerHTML; /* The text */
+    let speed = 60; /* The speed/duration of the effect in milliseconds */
     typingTextArea.innerHTML = ''; // clear the text area
 
     function typeWriter() {

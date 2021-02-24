@@ -68,9 +68,6 @@ body p {
 .services-text{
   text-align: justify;
 }
-.services-text-slide{
-  /* height: 300px; */
-}
 #clients-section{
   background-image: url('../images/ship6.jpg');
   background-size: cover;
