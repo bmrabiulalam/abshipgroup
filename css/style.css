@@ -65,8 +65,16 @@ body p {
     box-shadow: 0 0 6px #fff, 0 0 9px #4dcdff, 0 0 12px #4dcdff, 0 0 15px #4dcdff, 0 0 18px #4dcdff, 0 0 21px #ff4da6, 0 0 24px #ff4da6;
   }
 }
+.services-accordion{
+  background: linear-gradient(100deg, rgb(253, 71, 229), #1eb9e9);
+}
+.services-btn{
+  background: linear-gradient(130deg, #549bb1, rgb(99, 208, 252));
+  border-radius: 5px !important;
+}
 .services-text{
   text-align: justify;
+  background: transparent !important;
 }
 #clients-section{
   background-image: url('../images/ship6.jpg');
